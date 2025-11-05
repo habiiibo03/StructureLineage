@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    "raw_table_1.product_id",
+    "view_0.product_id",
+    "raw_table_2.customer_id",
+    "view_0.customer_id",
+    "raw_table_0.col0_4",
+    "view_0.col0_4",
+    "raw_table_1.col1_2",
+    "view_1.vcol_1_0",
+    "raw_table_1.col1_3",
+    "view_1.col1_3",
+    "view_1.vcol_1_2",
+    "view_2.col0_4",
+    "view_2.product_id",
+    "view_2.vcol_2_2",
+    "view_2.col1_2",
+    "raw_table_3.col3_3",
+    "view_2.col3_3",
+    "raw_table_1.col1_1",
+    "view_3.vcol_3_0",
+    "view_3.col0_4",
+    "raw_table_0.col0_2",
+    "view_3.col0_2",
+    "raw_table_3.col3_2",
+    "view_3.col3_2"
+  ],
+  "edges": [
+    {
+      "src": "raw_table_1.product_id",
+      "tgt": "view_0.product_id",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_0.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_1.product_id",
+      "tgt": "view_2.product_id",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_2.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_2.customer_id",
+      "tgt": "view_0.customer_id",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_0.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_0.col0_4",
+      "tgt": "view_0.col0_4",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_0.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_0.col0_4",
+      "tgt": "view_2.col0_4",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_2.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_0.col0_4",
+      "tgt": "view_3.col0_4",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_3.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_1.col1_2",
+      "tgt": "view_1.vcol_1_0",
+      "prob": 0.7142857142857143,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_1.sql",
+          "score": 0.7142857142857143,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_1.col1_2",
+      "tgt": "view_1.vcol_1_2",
+      "prob": 0.3333333333333333,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_1.sql",
+          "score": 0.3333333333333333,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_1.col1_2",
+      "tgt": "view_2.vcol_2_2",
+      "prob": 0.5,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_2.sql",
+          "score": 0.5,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_1.col1_2",
+      "tgt": "view_2.col1_2",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_2.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_1.col1_3",
+      "tgt": "view_1.col1_3",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_1.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_3.col3_3",
+      "tgt": "view_2.col3_3",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_2.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_1.col1_1",
+      "tgt": "view_3.vcol_3_0",
+      "prob": 0.5714285714285714,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_3.sql",
+          "score": 0.5714285714285714,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_0.col0_2",
+      "tgt": "view_3.col0_2",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_3.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    },
+    {
+      "src": "raw_table_3.col3_2",
+      "tgt": "view_3.col3_2",
+      "prob": 1.0,
+      "evidence": [
+        {
+          "artifact": "examples\\demo_project\\view_3.sql",
+          "score": 1.0,
+          "ts": "2025-11-05T19:04:55.382925"
+        }
+      ]
+    }
+  ]
+}
