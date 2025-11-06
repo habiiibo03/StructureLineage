@@ -1,27 +1,40 @@
+# 🧩 StructureLineage
+
+StructureLineage is a framework for generating synthetic pipelines, building Schema Dependency Graphs (SDGs), and evaluating lineage mappings with precision/recall metrics.
+
+**Author:** Habib Maicha
+
+---
+
+## 🚀 Quickstart in Google Colab
+
+Run the full pipeline interactively with one click:
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/habiiibo03/StructureLineage/blob/main/StructureLineage_Quickstart.ipynb)
 
-# StructureLineage Prototype
-Lightweight prototype for StructureLineage: schema dependency extraction (SQL + Notebooks)
+The Quickstart notebook demonstrates how to:
+1. Clone the StructureLineage repo  
+2. Generate a synthetic project  
+3. Build the Schema Dependency Graph (SDG)  
+4. Evaluate precision/recall against ground truth  
+5. ✅ Auto-verify pipeline success  
+6. 📊 Visualize the SDG (tables vs views)
 
-## Requirements
+---
+
+## 📊 Example SDG Visualization
+
+Here’s a simplified layered view of tables (blue) and views (green):
+
+![Schema Dependency Graph](examples/sdg_clean.png)
+
+---
+
+## ⚙️ Requirements
+
 - Python 3.9+
-- Recommended: create virtualenv and install requirements.txt
+- `sqlglot`, `duckdb`, `networkx`, `pandas`, `pytest`
 
-Windows quick setup (PowerShell):
-```powershell
-py -3 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install --upgrade pip
+Install dependencies:
+```bash
 pip install -r requirements.txt
-```
-
-## Run demo
-```powershell
-python examples\quick_demo.py
-```
-The demo will generate a synthetic project under `examples/demo_project`, process it, and write a JSON SDG to `examples/demo_project/sdg.json`.
-
-## Notes
-- The prototype uses sqlglot for SQL parsing, nbformat for notebook parsing, DuckDB for optional dynamic probing,
-  NetworkX for an in-memory graph and SQLite for optional persistence (simple wrapper).
-- Do NOT run code cloned from untrusted repos. Dynamic probing will only run on local/synthetic data created by the generator.
