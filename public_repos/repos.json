@@ -1,0 +1,15 @@
+[
+  "https://github.com/tnightengale/dbt-meta-testing",
+  "https://github.com/basedosdados/archived-queries-basedosdados",
+  "https://github.com/alhankeser/antren-dbt",
+  "https://github.com/cmcnicoll/analytics-engineering-template",
+  "https://github.com/Drprincerajput/supplychain-analytics-pipeline",
+  "https://github.com/Drprincerajput/retail-analytics-pipeline",
+  "https://github.com/Drprincerajput/timeseries-analytical-pipeline",
+  "https://github.com/grahamwetzler/f1-dbt",
+  "https://github.com/S-Khan2/dbt-with-BigQuery",
+  "https://github.com/jyablonski/nba_elt_dbt",
+  "https://github.com/Drprincerajput/smartphone-sale-analytics",
+  "https://github.com/denysk1/dbt-snowflake-integration",
+  "https://github.com/bakary1/Analytics-Engineering-dbt-Snowflake"
+]

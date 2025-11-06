@@ -1,0 +1,261 @@
+{
+  "query": "topic:dbt language:SQL",
+  "date_utc": "2025-11-06 20:42:21",
+  "repos_found": 13,
+  "repos_processed": 13,
+  "repos_failed": [
+    {
+      "repo": "https://github.com/tnightengale/dbt-meta-testing",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/basedosdados/archived-queries-basedosdados",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/alhankeser/antren-dbt",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/cmcnicoll/analytics-engineering-template",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/supplychain-analytics-pipeline",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/retail-analytics-pipeline",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/timeseries-analytical-pipeline",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/grahamwetzler/f1-dbt",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/S-Khan2/dbt-with-BigQuery",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/jyablonski/nba_elt_dbt",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/smartphone-sale-analytics",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/denysk1/dbt-snowflake-integration",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/bakary1/Analytics-Engineering-dbt-Snowflake",
+      "reason": "parse_failed",
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    }
+  ],
+  "total_sql": 398,
+  "total_ipynb": 0,
+  "total_edges": 0,
+  "avg_edges_per_repo": 0.0,
+  "per_repo": [
+    {
+      "repo": "https://github.com/tnightengale/dbt-meta-testing",
+      "dir": "public_repos/dbt-meta-testing",
+      "counts": {
+        "sql": 30,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 0,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/basedosdados/archived-queries-basedosdados",
+      "dir": "public_repos/archived-queries-basedosdados",
+      "counts": {
+        "sql": 70,
+        "ipynb": 0,
+        "py": 1,
+        "csv": 0,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/alhankeser/antren-dbt",
+      "dir": "public_repos/antren-dbt",
+      "counts": {
+        "sql": 13,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 0,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/cmcnicoll/analytics-engineering-template",
+      "dir": "public_repos/analytics-engineering-template",
+      "counts": {
+        "sql": 15,
+        "ipynb": 0,
+        "py": 1,
+        "csv": 7,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/supplychain-analytics-pipeline",
+      "dir": "public_repos/supplychain-analytics-pipeline",
+      "counts": {
+        "sql": 15,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 0,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/retail-analytics-pipeline",
+      "dir": "public_repos/retail-analytics-pipeline",
+      "counts": {
+        "sql": 14,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 1,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/timeseries-analytical-pipeline",
+      "dir": "public_repos/timeseries-analytical-pipeline",
+      "counts": {
+        "sql": 7,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 3,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/grahamwetzler/f1-dbt",
+      "dir": "public_repos/f1-dbt",
+      "counts": {
+        "sql": 18,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 1,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/S-Khan2/dbt-with-BigQuery",
+      "dir": "public_repos/dbt-with-BigQuery",
+      "counts": {
+        "sql": 6,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 0,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/jyablonski/nba_elt_dbt",
+      "dir": "public_repos/nba_elt_dbt",
+      "counts": {
+        "sql": 131,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 0,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/Drprincerajput/smartphone-sale-analytics",
+      "dir": "public_repos/smartphone-sale-analytics",
+      "counts": {
+        "sql": 6,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 1,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/denysk1/dbt-snowflake-integration",
+      "dir": "public_repos/dbt-snowflake-integration",
+      "counts": {
+        "sql": 57,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 1,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    },
+    {
+      "repo": "https://github.com/bakary1/Analytics-Engineering-dbt-Snowflake",
+      "dir": "public_repos/Analytics-Engineering-dbt-Snowflake",
+      "counts": {
+        "sql": 16,
+        "ipynb": 0,
+        "py": 0,
+        "csv": 1,
+        "parquet": 0
+      },
+      "parse_time_s": null,
+      "sdg": null,
+      "error": "process_workspace() got an unexpected keyword argument 'calibrator'"
+    }
+  ]
+}

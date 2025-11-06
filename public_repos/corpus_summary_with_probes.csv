@@ -1,0 +1,14 @@
+repo,dir,sql_count,ipynb_count,py_count,csv_count,parquet_count,parse_time_s,num_edges,avg_prob
+https://github.com/tnightengale/dbt-meta-testing,public_repos/dbt-meta-testing,30,0,0,0,0,,0,0.0
+https://github.com/basedosdados/archived-queries-basedosdados,public_repos/archived-queries-basedosdados,70,0,1,0,0,,0,0.0
+https://github.com/alhankeser/antren-dbt,public_repos/antren-dbt,13,0,0,0,0,,0,0.0
+https://github.com/cmcnicoll/analytics-engineering-template,public_repos/analytics-engineering-template,15,0,1,7,0,,0,0.0
+https://github.com/Drprincerajput/supplychain-analytics-pipeline,public_repos/supplychain-analytics-pipeline,15,0,0,0,0,,0,0.0
+https://github.com/Drprincerajput/retail-analytics-pipeline,public_repos/retail-analytics-pipeline,14,0,0,1,0,,0,0.0
+https://github.com/Drprincerajput/timeseries-analytical-pipeline,public_repos/timeseries-analytical-pipeline,7,0,0,3,0,,0,0.0
+https://github.com/grahamwetzler/f1-dbt,public_repos/f1-dbt,18,0,0,1,0,,0,0.0
+https://github.com/S-Khan2/dbt-with-BigQuery,public_repos/dbt-with-BigQuery,6,0,0,0,0,,0,0.0
+https://github.com/jyablonski/nba_elt_dbt,public_repos/nba_elt_dbt,131,0,0,0,0,,0,0.0
+https://github.com/Drprincerajput/smartphone-sale-analytics,public_repos/smartphone-sale-analytics,6,0,0,1,0,,0,0.0
+https://github.com/denysk1/dbt-snowflake-integration,public_repos/dbt-snowflake-integration,57,0,0,1,0,,0,0.0
+https://github.com/bakary1/Analytics-Engineering-dbt-Snowflake,public_repos/Analytics-Engineering-dbt-Snowflake,16,0,0,1,0,,0,0.0
