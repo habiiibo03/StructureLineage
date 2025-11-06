@@ -38,3 +38,31 @@ Here’s a simplified layered view of tables (blue) and views (green):
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+---
+## 🖥️ Getting Started Locally
+
+Clone the repository and run the pipeline on your machine:
+```bash 
+git clone https://github.com/habiiibo03/StructureLineage.git cd StructureLineage pip install -r 
+```
+requirements.txt Generate a synthetic project:
+```bash
+python -m src.tools.gen_synthetic examples/local_project --n_tables 3 --n_views 3
+```
+Build the Schema Dependency Graph:
+```bash
+python -m src.sl_core.build_sdg examples/local_project 
+```
+Evaluate results:
+```bash
+pytest
+```
+---
+
+## 🧪 Testing
+Run unit tests with:
+```bash 
+pytest 
+```
+---
