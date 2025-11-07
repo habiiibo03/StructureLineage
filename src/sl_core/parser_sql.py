@@ -56,18 +56,18 @@ def extract_create_selects(ast):
             select_ast = getattr(node, "expression", None)
             if select_ast is not None:
                 out.append((target, select_ast))
-        # VIEW definitions might also appear as exp.View depending on dialect; handle generically
-        if isinstance(node, exp.View):
+        # CREATE VIEW nodes appear as exp.Create(kind='VIEW') in newer sqlglot versions
+        if isinstance(node, exp.Create) and getattr(node, "kind", "").upper() == "VIEW":
             target = None
             try:
-                target = getattr(node, "this", None)
-                if target is not None:
-                    target = getattr(target, "name", None) or target.sql()
+                if hasattr(node, "this") and node.this is not None:
+                    target = getattr(node.this, "name", None) or node.this.sql()
             except Exception:
                 target = None
             select_ast = getattr(node, "expression", None)
             if select_ast is not None:
                 out.append((target, select_ast))
+
     return out
 
 def resolve_table_refs(select_ast) -> List[Tuple[str, Optional[str]]]:
